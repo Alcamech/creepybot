@@ -1,6 +1,6 @@
 # creepybot
 
-Just a simple twitter bot (https://twitter.com/CreepyBot_)  created from this tutorial. 
+Just a simple twitter bot (https://twitter.com/CreepyBot_) created from this tutorial. This bot will be dedicated to tweeting photos or text  related to the horror genre.
 
 https://github.com/robincamille/bot-tutorial
 
