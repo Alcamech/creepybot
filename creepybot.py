@@ -21,11 +21,11 @@ api = tweepy.API(auth)
 
 # What the bot will tweet
 
-filename = open('TheRaven.txt','r')
+filename = open('InTheDesert.txt','r')
 tweettext = filename.readlines()
 filename.close()
 
-for line in tweettext[0:108]: #Lines 0-108
+for line in tweettext[0:12]: #Lines 0-12
         api.update_status(line)
         print(line)
         time.sleep(15) # Sleep for 15 seconds
