@@ -75,7 +75,7 @@ def tweet_creator(subreddit_info):
     #
     # "limit" tells the API the maximum number of posts to look up
 
-    for submission in subreddit_info.get_hot(limit=10):
+    for submission in subreddit_info.get_top(limit=5):
         if not already_tweeted(submission.id):
             # This stores a link to the reddit post itself
             # If you want to link to what the post is linking to instead, use
